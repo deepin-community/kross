@@ -1,0 +1,6 @@
+usr/bin/kf5kross
+usr/lib/*/qt5/plugins/*.so
+usr/lib/*/qt5/plugins/script/kross*.so
+usr/share/locale/*/*/kross5.mo
+usr/share/man/*/man1/kf5kross.1
+usr/share/man/man1/kf5kross.1

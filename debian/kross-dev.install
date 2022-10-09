@@ -1,0 +1,8 @@
+usr/include/KF5/KrossCore/
+usr/include/KF5/KrossUi/
+usr/include/KF5/kross_version.h
+usr/lib/*/cmake/KF5Kross/
+usr/lib/*/libKF5KrossCore.so
+usr/lib/*/libKF5KrossUi.so
+usr/lib/*/qt5/mkspecs/modules/qt_KrossCore.pri
+usr/lib/*/qt5/mkspecs/modules/qt_KrossUi.pri
