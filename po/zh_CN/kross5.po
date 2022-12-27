@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-10-24 02:12+0200\n"
-"PO-Revision-Date: 2021-08-30 11:43\n"
+"PO-Revision-Date: 2021-12-22 14:06\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -32,12 +32,14 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "KDE 中国, Feng Chao"
+msgstr "KDE 中国, Feng Chao, Guo Yunhe, Tyson Tan"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-china@kde.org, chaofeng111@gmail.com"
+msgstr ""
+"kde-china@kde.org, chaofeng111@gmail.com, i@guoyunhe.me, tysontan@tysontan."
+"com"
 
 #: console/main.cpp:99
 #, kde-format
