@@ -1,21 +1,9 @@
-# translation of kdelibs4.po to Chinese Simplified
-# Copyright (C) 2007 Free Software Foundation, Inc.
-#
-# Lie Ex <lilith.ex@gmail.com> 2007-2011.
-# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
-# Sarah Smith <sarahs@redhat.com>, 2002.
-# Xiong Jiang <jxiong@offtopic.org>, 2002,2003,2004.
-# Funda Wang <fundawang@linux.net.cn>, 2002,2003,2004.
-# Liang Qi <cavendish.qi@gmail.com>, 2007.
-# Feng Chao <chaofeng111@gmail.com>, 2010, 2012, 2014.
-# Ni Hui <shuizhuyuanluo@126.com>, 2010, 2011, 2012.
-# Weng Xuetian <wengxt@gmail.com>, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-10-24 02:12+0200\n"
-"PO-Revision-Date: 2021-12-22 14:06\n"
+"PO-Revision-Date: 2023-01-12 10:30\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -57,7 +45,7 @@ msgstr "运行 Kross 脚本的命令行工具。"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Copyright 2006 Sebastian Sauer"
-msgstr "(C) 2006 Sebastian Sauer"
+msgstr "Copyright 2006 Sebastian Sauer"
 
 #: console/main.cpp:107
 #, kde-format
