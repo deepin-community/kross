@@ -6,23 +6,23 @@ Uploaders: Aurélien COUDERC <coucouf@debian.org>,
            Norbert Preining <norbert@preining.info>,
 Build-Depends: cmake (>= 3.16~),
                debhelper-compat (= 13),
-               extra-cmake-modules (>= 5.90.0~),
-               libkf5completion-dev (>= 5.90.0~),
-               libkf5coreaddons-dev (>= 5.90.0~),
-               libkf5doctools-dev (>= 5.90.0~),
-               libkf5i18n-dev (>= 5.90.0~),
-               libkf5iconthemes-dev (>= 5.90.0~),
-               libkf5kio-dev (>= 5.90.0~),
-               libkf5parts-dev (>= 5.90.0~),
-               libkf5widgetsaddons-dev (>= 5.90.0~),
-               libkf5xmlgui-dev (>= 5.90.0~),
+               extra-cmake-modules (>= 5.103.0~),
+               libkf5completion-dev (>= 5.103.0~),
+               libkf5coreaddons-dev (>= 5.103.0~),
+               libkf5doctools-dev (>= 5.103.0~),
+               libkf5i18n-dev (>= 5.103.0~),
+               libkf5iconthemes-dev (>= 5.103.0~),
+               libkf5kio-dev (>= 5.103.0~),
+               libkf5parts-dev (>= 5.103.0~),
+               libkf5widgetsaddons-dev (>= 5.103.0~),
+               libkf5xmlgui-dev (>= 5.103.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.15.2~),
                qtscript5-dev (>= 5.15.2~),
                qttools5-dev (>= 5.15.2~),
                xauth,
                xvfb,
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Homepage: https://invent.kde.org/frameworks/kross
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kross
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kross.git
@@ -44,11 +44,11 @@ Package: kross-dev
 Section: libdevel
 Architecture: any
 Depends: kross (= ${binary:Version}),
-         libkf5i18n-dev (>= 5.90.0~),
-         libkf5iconthemes-dev (>= 5.90.0~),
-         libkf5kio-dev (>= 5.90.0~),
-         libkf5parts-dev (>= 5.90.0~),
-         libkf5widgetsaddons-dev (>= 5.90.0~),
+         libkf5i18n-dev (>= 5.103.0~),
+         libkf5iconthemes-dev (>= 5.103.0~),
+         libkf5kio-dev (>= 5.103.0~),
+         libkf5parts-dev (>= 5.103.0~),
+         libkf5widgetsaddons-dev (>= 5.103.0~),
          qtbase5-dev (>= 5.15.2~),
          ${misc:Depends},
 Description: development files for kross
@@ -58,13 +58,13 @@ Description: development files for kross
  to bridge the static and dynamic worlds together.
  .
  Contains development files for kross.
-Breaks: libkf5kdelibs4support-dev (<< 5.54)
+Breaks: libkf5kdelibs4support-dev (<< 5.54),
 
 Package: libkf5krosscore5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: kross (>= ${binary:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends},
+Recommends: kross (>= ${binary:Version}),
 Description: Multi-language application scripting.
  Modular scripting framework that eases embedding
  of scripting interpreters like Python, Ruby and
@@ -73,7 +73,7 @@ Description: Multi-language application scripting.
 
 Package: libkf5krossui5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends},
 Description: Multi-language application scripting.
  Modular scripting framework that eases embedding
  of scripting interpreters like Python, Ruby and
